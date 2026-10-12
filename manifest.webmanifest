@@ -1,0 +1,15 @@
+{
+  "name": "NexoFit — Entrenamiento y bienestar",
+  "short_name": "NexoFit",
+  "description": "Rutinas, alimentación y progreso en un solo lugar.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#10130f",
+  "theme_color": "#101114",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

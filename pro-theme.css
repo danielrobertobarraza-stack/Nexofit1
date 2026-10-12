@@ -1,0 +1,47 @@
+:root{--bg:#f3f6f8!important;--panel:#fff!important;--panel2:#edf2f5!important;--line:#dce3e8!important;--muted:#718096!important;--text:#182632!important;--lime:#176b69!important;--orange:#c7794e!important}
+body{background:radial-gradient(ellipse at 75% -15%,#dce9e9 0,transparent 38%),#f3f6f8!important}
+.brandmark,.primary,.chip.active,.day.today .bubble{background:#176b69!important;color:white!important}
+.hero{background:linear-gradient(115deg,#143d50,#247778)!important}
+.hero:after{content:''!important;inset:0!important;top:0!important;right:0!important;font-size:0!important;transform:none!important;background:linear-gradient(90deg,#143d5055,transparent 85%)!important}
+.avatar{background:#dcebea!important;color:#176b69!important}
+.mobilebar{background:#ffffffed!important}
+.thumb{background:#e5efef!important}
+.routine,.foodcard,.card,.stat{box-shadow:0 5px 18px #26374408}
+.rart{background:linear-gradient(135deg,#e6efed,#d8e4e2)!important}
+.hero-art{width:45%!important;height:100%!important;right:0!important;bottom:0!important;opacity:1!important;background:linear-gradient(90deg,#173f50 0%,#173f501a 46%),url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=85') center 38%/cover!important;border-radius:0 24px 24px 0;mask-image:linear-gradient(90deg,transparent 0%,#000 20%)}.hero-art svg{display:none!important}
+.routine:nth-child(1) .rart{background:linear-gradient(#10222a25,#10222a25),url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80') center 42%/cover!important}
+.routine:nth-child(2) .rart{background:linear-gradient(#10222a25,#10222a25),url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=700&q=80') center/cover!important}
+.routine:nth-child(3) .rart{background:linear-gradient(#10222a25,#10222a25),url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80') center/cover!important}
+.rart svg{display:none!important}
+.foodphoto{background:linear-gradient(135deg,#f0e9dd,#e6ece5)!important}
+.welcome h1{color:#182632}
+.workout-modal{position:fixed;inset:0;background:#12202bcc;display:none;place-items:center;padding:18px;z-index:10;backdrop-filter:blur(5px)}.workout-modal.open{display:grid}.workout-dialog{width:min(680px,100%);background:white;border-radius:22px;overflow:hidden;box-shadow:0 25px 90px #10202a55}.workout-dialog img{width:100%;height:min(55vh,400px);object-fit:cover;background:#e9eeee}.workout-info{padding:20px}.workout-info h2{font:600 25px 'Space Grotesk';margin:0 0 8px}.workout-info p{color:#687783;line-height:1.55;font-size:14px}.modal-top{display:flex;justify-content:space-between;align-items:center}.modal-close{border:0;background:#edf1f3;border-radius:50%;width:38px;height:38px;font-size:20px;color:#293640}
+@media(max-width:760px){.workout-dialog img{height:38vh}}
+
+/* Ritmo · modo nocturno carbón y rojo */
+:root{--bg:#101114!important;--panel:#191b20!important;--panel2:#24272e!important;--line:#30343c!important;--muted:#a0a5af!important;--text:#f2f3f5!important;--lime:#e23b48!important;--orange:#f08d74!important}
+body{background:radial-gradient(ellipse at 75% -15%,#422126 0,transparent 38%),#101114!important}
+.top,.nav{background:#14161a!important}.nav button.active{background:#282b31!important;color:#fff!important}
+.brandmark,.primary,.chip.active,.day.today .bubble{background:#e23b48!important;color:#fff!important}
+.hero{background:linear-gradient(110deg,#441e25,#8e2935)!important}
+.hero-art{background-image:linear-gradient(90deg,#441e2555,transparent 60%),url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=85')!important}
+.avatar{background:#3a2026!important;color:#ff747e!important}.mobilebar{background:#14161aee!important}
+.thumb{background:#2b2328!important}.rart{background:linear-gradient(135deg,#3b282c,#24252a)!important}
+.routine:nth-child(1) .rart{background-image:linear-gradient(#1a141922,#1a141922),url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80')!important}
+.routine:nth-child(2) .rart{background-image:linear-gradient(#1a141922,#1a141922),url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=700&q=80')!important}
+.routine:nth-child(3) .rart{background-image:linear-gradient(#1a141922,#1a141922),url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=700&q=80')!important}
+.foodphoto{background:linear-gradient(135deg,#3b2e29,#24251f)!important}
+.card,.stat,.routine,.foodcard{box-shadow:0 8px 26px #0003!important}
+.daily-plan,.builder{background:#191b20!important}.builder .filters{flex-wrap:wrap}
+.exercise-builder-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.exercise-option{display:flex;gap:12px;align-items:center;padding:12px;border:1px solid var(--line);border-radius:15px;background:#14161a;min-width:0}
+.exercise-option.chosen{border-color:#e23b48;background:#29191e}.exercise-placeholder{width:52px;height:52px;flex:none;border-radius:12px;background:linear-gradient(145deg,#49242b,#27252a);display:grid;place-items:center;color:#ff6670;font-size:22px}.exercise-option-body{min-width:0;display:grid;gap:5px}.exercise-option-body strong{font-size:13px}.exercise-option-body small{color:var(--muted);font-size:10px}.exercise-actions{display:flex;align-items:center;justify-content:space-between;gap:8px}.select-ex{padding:6px 9px!important;font-size:10px!important;white-space:nowrap}.builder-footer{display:flex;align-items:center;justify-content:space-between;gap:14px;border-top:1px solid var(--line);padding-top:15px;margin-top:15px}.builder-footer strong{font-size:13px}.builder-footer .primary{margin:0;white-space:nowrap}.demo-stage{position:relative;background:#101114}.demo-stage img{display:block;width:100%;height:min(55vh,400px);object-fit:contain;background:#101114;image-rendering:auto}.muscle-label{position:absolute;left:14px;bottom:14px;border:1px solid #f17b82;background:#27161be8;color:#fff;padding:9px 12px;border-radius:99px;font-size:12px;font-weight:700}.exercise-placeholder.large{width:100%;height:min(55vh,400px);border-radius:0}.workout-info{background:#191b20!important;color:#f2f3f5}.workout-info .modal-close{background:#292c32;color:white}.workout-info p{color:#b7bbc3}
+@media(max-width:760px){.exercise-builder-grid{grid-template-columns:1fr}.builder-footer{align-items:stretch;flex-direction:column}.builder-footer .primary{width:100%}.demo-stage img{height:40vh}}
+.hero-art{background-image:linear-gradient(90deg,#441e2555,transparent 60%),url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85')!important}
+body.gender-mujer .hero-art{background-image:linear-gradient(90deg,#441e2555,transparent 60%),url('https://images.unsplash.com/photo-1633354129320-163fb10dd288?auto=format&fit=crop&w=900&q=85')!important}
+body.gender-hombre .hero-art{background-image:linear-gradient(90deg,#441e2555,transparent 60%),url('https://images.unsplash.com/photo-1646072507379-c6c9dca7de0c?auto=format&fit=crop&w=900&q=85')!important}
+.foodphoto{padding:0!important;overflow:hidden;min-height:140px}.foodphoto img{display:block;width:100%;height:100%;min-height:140px;object-fit:cover}.foodphoto.photo-unavailable{background:linear-gradient(140deg,#38252a,#1e2026)!important}
+.demo-thumb{padding:0;border:0;background:#17181d;width:92px;height:84px;flex:none;border-radius:11px;overflow:hidden;display:grid;place-items:center;color:#ff747e;font-size:12px}.demo-thumb img{width:100%;height:100%;object-fit:cover;display:block}.demo-thumb.no-gif{background:#352126;color:#ffc2c4;font-size:11px;padding:6px;text-align:center}
+.gif-error{height:min(55vh,400px);display:grid;place-items:center;padding:35px;text-align:center;color:#f0b8bc;font-size:14px;line-height:1.6;background:#17181d}
+.site-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #30343c;padding:24px 36px calc(24px + env(safe-area-inset-bottom));color:#969ba5;font-size:12px;background:#101114}.footer-brand{font:700 18px 'Space Grotesk';color:#fff}
+@media(max-width:760px){.demo-thumb{width:88px;height:82px}.site-footer{padding:22px 18px calc(90px + env(safe-area-inset-bottom));flex-direction:column;align-items:flex-start}}
